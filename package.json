@@ -1,10 +1,11 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-test",
   "version": "0.1.0",
   "description": "",
   "keywords": [
     "n8n-community-node-package"
   ],
+  "type": "commonjs",
   "license": "MIT",
   "homepage": "",
   "author": {
@@ -29,13 +30,9 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
-    ],
+    "credentials": [],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/DocxTemplates/DocxTemplates.node.js"
     ]
   },
   "devDependencies": {
@@ -48,5 +45,9 @@
     "n8n-workflow": "*",
     "prettier": "^2.7.1",
     "typescript": "~4.8.4"
+  },
+  "dependencies": {
+    "docx-templates": "^4.11.3",
+    "node-fetch": "^2.7.0"
   }
 }

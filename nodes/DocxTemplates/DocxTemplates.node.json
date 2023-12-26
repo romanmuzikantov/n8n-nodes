@@ -1,0 +1,13 @@
+{
+	"node": "n8n-nodes-test.docxtemplates",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Document", "Formatting"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/guigrpa/docx-templates"
+			}
+		]
+	}
+}

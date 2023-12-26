@@ -1,5 +1,6 @@
 const path = require('path');
-const { task, src, dest } = require('gulp');
+const pkg = require('gulp');
+const { task, src, dest } = pkg;
 
 task('build:icons', copyIcons);
 
